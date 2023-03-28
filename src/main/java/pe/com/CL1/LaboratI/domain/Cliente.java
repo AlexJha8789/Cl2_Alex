@@ -5,11 +5,14 @@
 package pe.com.CL1.LaboratI.domain;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import lombok.Data;
 
 
 @Entity 
 @Data
 public class Cliente {
+    @Id
+    private long id;
     
 }
